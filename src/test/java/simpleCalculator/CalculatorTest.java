@@ -24,5 +24,12 @@ public class CalculatorTest {
 		calc.sub(10, 20);
 		assertEquals(-10, calc.getResult());
 	}
+	
+	@Test
+	public void testInc(){
+		Calculator calc = new Calculator();
+		calc.inc(11);
+		assertEquals(11, calc.getResult());
+	}
 
 }
